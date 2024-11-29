@@ -1,0 +1,13 @@
+[includeif "gitdir:~/Your/Work/Repository/"]
+        [user]
+                emai = your.work.email@bcg.com
+                email = your.work.email@bcg.com
+                name = Henrique Albuquerque
+        [core]
+                sshCommand = "ssh -i ~/.ssh/work_id_rsa"
+
+[includeif "gitdir:~/Your/Personal/Repository/"]
+        [user]
+                emai = your.personal.email@outlook.com
+                email = your.personal.email@outlook.com
+                name = Henrique Albuquerque
